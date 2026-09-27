@@ -12,7 +12,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "axios": "latest"
+    "axios": "latest",
+    "koffi": "^3.3.0"
   },
   "engines": {
     "node": ">=14"
