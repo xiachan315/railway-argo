@@ -8,6 +8,7 @@ EXPOSE 3000/tcp
 
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y --no-install-recommends \
+        ca-certificates \
         openssl \
         curl \
         iproute2 \
